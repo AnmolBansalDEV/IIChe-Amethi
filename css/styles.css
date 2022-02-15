@@ -1,0 +1,143 @@
+
+#title{
+    background-color:black;
+}
+ /* main heading of the landing page */
+ 
+h1{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    size: 3.5rem;
+    margin-bottom: 10%;
+    margin-top: 7%;
+}
+.tagline{
+    color: gray;
+}
+.title-content{
+    font-family: sans-serif;
+}
+
+/* navbar container which is responsive and fluid(blends in the environment) */
+.container-fluid{
+    padding:2% 5% 6%;
+}
+.background-img{
+    background-image: url("../images/background.jpeg");
+  }
+.chem1{
+    
+    width: 70%;
+   
+}
+
+body{
+    font-family: 'montserrat-dark', sans-serif;
+}
+.navbar-brand{
+    font-family: 'ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 1.12rem;
+}
+.nav-link{
+ font-size: 1.2rem;   
+ font-family: 'montserrat-light',sans-serif;
+}
+
+
+/* slides section */
+#Slides{
+     text-align: center;
+    color: #000;
+    background-color:#fff;
+  
+}
+h2{
+    font-family: 'montserrat-dark', sans-serif;
+    font-size: 3rem;
+    line-height: 1.3;
+    font-weight: bold;
+}
+.slides-img{
+    object-fit: fill;
+    width: 70%;
+    margin: 4%
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 40px;
+    width: 40px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* about section */
+#About{
+    background-color: #fff;
+    text-align: center;
+    padding: 5% 15%;
+}
+
+/* Events section */
+
+#Events{
+    background-color: #000;
+    text-align: center;
+    padding: 5% 15%;
+}
+.events-header{
+    font-family: 'montserrat-dark', sans-serif;
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight:bold;   
+}
+p {
+    color: rgb(143, 143, 143);
+}
+#footer{
+    text-align: center;
+    padding: 5% 15% 2%;
+}
+.socials{
+    margin: 1% 2%;
+    color: #000;
+    
+}
+
+.studentsection{
+    color: #000;
+    font-family: 'montserrat-dark', sans-serif;
+    color: #000;
+    font-size: 3.5rem;
+    font-weight:bold;
+}
+#studentchapter{
+        background-color: white;
+        text-align: center;
+        padding: 5% 15%;
+}
+.copyright{
+    margin-top: 2%;
+}
+
+
+/* css responsiveness */
+@media (max-width:1000px) {
+    
+    #title{
+        text-align: center;
+    }
+}
